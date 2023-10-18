@@ -1,4 +1,4 @@
-import {Controller, Get, Render, Req, Res} from '@nestjs/common';
+import {Controller, Get, Render} from '@nestjs/common';
 import { AppService } from './app.service';
 
 @Controller()
@@ -7,13 +7,10 @@ export class AppController {
 
   @Get()
   @Render('index.hbs')
-  root() {
-    return { message: 'Hello world!' };
-  }
+  root(): void {}
+
   @Get("/ping")
   getPong(): any {
     return { pong: "pong"};
   }
-
-
 }

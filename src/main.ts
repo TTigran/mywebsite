@@ -1,6 +1,7 @@
 import { NestFactory } from '@nestjs/core';
 import { NestFastifyApplication, FastifyAdapter } from '@nestjs/platform-fastify';
 import { AppModule } from './app.module';
+import * as process from 'process';
 import { join } from 'path';
 
 async function bootstrap() {
@@ -8,10 +9,12 @@ async function bootstrap() {
         AppModule,
         new FastifyAdapter(),
     );
-    app.useStaticAssets({
-        root: join(__dirname, '..', 'public'),
-        prefix: '/public/',
+
+    app.register(require('@fastify/static'), {
+        root: join(__dirname, '..', 'public'), // Root directory for static assets
+        wildcard: false, // Disable wildcard support
     });
+
     app.setViewEngine({
         engine: {
             handlebars: require('handlebars'),

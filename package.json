@@ -21,9 +21,14 @@
     "deploy": " npm ci && npm run build && npm run start:prod"
   },
   "dependencies": {
+    "@fastify/static": "^6.11.2",
+    "@fastify/view": "^8.2.0",
     "@nestjs/common": "^10.0.0",
     "@nestjs/core": "^10.0.0",
     "@nestjs/platform-express": "^10.0.0",
+    "@nestjs/platform-fastify": "^10.2.7",
+    "handlebars": "^4.7.8",
+    "hbs": "^4.2.0",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.8.1"
   },

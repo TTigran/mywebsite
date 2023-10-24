@@ -1,11 +1,21 @@
-import { Module } from '@nestjs/common';
+import {MiddlewareConsumer, Module, RequestMethod} from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
+import {EmailModule} from "./email/EmailModule";
+import {CorsMiddleware} from "./middleware/CorsMiddleware";
 
 @Module({
-  imports: [],
+  imports: [EmailModule],
   controllers: [AppController],
   providers: [AppService],
 })
 
-export class AppModule {}
+export class AppModule {
+  configure(consumer: MiddlewareConsumer) {
+
+    consumer.apply(CorsMiddleware).forRoutes({
+      path: '*',
+      method: RequestMethod.ALL,
+    });
+  }
+}

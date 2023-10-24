@@ -5,30 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6f12bd8-a4ba-4885-9f67-a062533ecf8a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/project/profileIcon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/EmailController.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module/EmailModule.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/EmailService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bannerImg.eb6a3fa3197ac84dabb4.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/project/bannerImg.eb6a3fa3197ac84dabb4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/contactImg.c0c32b234ad260bf810c.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/project/contactImg.c0c32b234ad260bf810c.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/gambling.baeda9a8aab3d7a6f0bf.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/project/gambling.baeda9a8aab3d7a6f0bf.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/maplarge.f0d31448e386fc9094bf.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/project/maplarge.f0d31448e386fc9094bf.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/projectFour.33cdddd1896419447226.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/project/projectFour.33cdddd1896419447226.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/projectThree.22576d66b26d121f299d.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/project/projectThree.22576d66b26d121f299d.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/projectTwo.45074659b9fbea0ca228.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/project/projectTwo.45074659b9fbea0ca228.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/swimmingshcool.491feafad9c2a8cb7a27.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/project/swimmingshcool.491feafad9c2a8cb7a27.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/testimonialOne.a70003b7c3a357895d2c.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/project/testimonialOne.a70003b7c3a357895d2c.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/verifone.4e29f2343a5ad27d6cc1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/project/verifone.4e29f2343a5ad27d6cc1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/project/bannerImg.eb6a3fa3197ac84dabb4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/project/contactImg.c0c32b234ad260bf810c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/project/gambling.baeda9a8aab3d7a6f0bf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/project/maplarge.f0d31448e386fc9094bf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/project/profileIcon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/project/projectFour.33cdddd1896419447226.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/project/projectThree.22576d66b26d121f299d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/project/projectTwo.45074659b9fbea0ca228.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/project/swimmingshcool.491feafad9c2a8cb7a27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/project/testimonialOne.a70003b7c3a357895d2c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/project/verifone.4e29f2343a5ad27d6cc1.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.hbs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,13 +58,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "javascript.nodejs.core.library.configured.version": "12.22.9",
-    "javascript.nodejs.core.library.typings.version": "",
-    "last_opened_file_path": "/home/tigran/IdeaProjects/mywebsite/public/images/project",
+    "javascript.nodejs.core.library.typings.version": "12.20.55",
+    "last_opened_file_path": "/home/tigran/Desktop/react-app-portfolio",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -70,11 +83,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/views" />
       <recent name="$PROJECT_DIR$/public/images/project" />
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
   <component name="RunManager">
@@ -104,6 +117,8 @@
       <updated>1697284258242</updated>
       <workItem from="1697284259243" duration="10030000" />
       <workItem from="1697617668090" duration="15297000" />
+      <workItem from="1697666453352" duration="2791000" />
+      <workItem from="1697975583790" duration="8603000" />
     </task>
     <servers />
   </component>

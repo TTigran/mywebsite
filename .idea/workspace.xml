@@ -5,29 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6f12bd8-a4ba-4885-9f67-a062533ecf8a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/controller/EmailController.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module/EmailModule.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/EmailService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/bannerImg.eb6a3fa3197ac84dabb4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/contactImg.c0c32b234ad260bf810c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/gambling.baeda9a8aab3d7a6f0bf.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/maplarge.f0d31448e386fc9094bf.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/profileIcon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/projectFour.33cdddd1896419447226.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/projectThree.22576d66b26d121f299d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/projectTwo.45074659b9fbea0ca228.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/swimmingshcool.491feafad9c2a8cb7a27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/testimonialOne.a70003b7c3a357895d2c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/verifone.4e29f2343a5ad27d6cc1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="TypeScript File" />
       </list>
     </option>
@@ -65,7 +49,7 @@
     "git-widget-placeholder": "main",
     "javascript.nodejs.core.library.configured.version": "12.22.9",
     "javascript.nodejs.core.library.typings.version": "12.20.55",
-    "last_opened_file_path": "/home/tigran/Desktop/react-app-portfolio",
+    "last_opened_file_path": "/home/tigran/IdeaProjects/mywebsite",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -83,11 +67,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/middleware" />
+      <recent name="$PROJECT_DIR$/src/controller" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/views" />
       <recent name="$PROJECT_DIR$/public/images/project" />
-      <recent name="$PROJECT_DIR$/public/images" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
@@ -119,6 +103,8 @@
       <workItem from="1697617668090" duration="15297000" />
       <workItem from="1697666453352" duration="2791000" />
       <workItem from="1697975583790" duration="8603000" />
+      <workItem from="1698007654345" duration="21470000" />
+      <workItem from="1698482715909" duration="10867000" />
     </task>
     <servers />
   </component>

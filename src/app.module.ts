@@ -4,12 +4,9 @@ import { AppService } from './app.service';
 import {EmailModule} from "./email/EmailModule";
 import {CorsMiddleware} from "./middleware/CorsMiddleware";
 import {ViewCountModule} from "./viewcount/ViewCountModule";
-import {MLModule} from "./ml/MLMddule";
-
-
 
 @Module({
-  imports: [EmailModule, ViewCountModule, MLModule],
+  imports: [EmailModule, ViewCountModule],
   controllers: [AppController],
   providers: [AppService],
 })
